@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="./css/normalize.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css" />
   <title>Homework-6</title>
 </head>
@@ -17,21 +18,18 @@
     <nav class="site-navigation wrapper">
       <a href="index.html" class="logo" target="_blank">MoGo</a>
       <ul class="navigation-menu">
-        <li class="nav-menu-item"><a href="#about">About</a></li>
-        <li class="nav-menu-item"><a href="#service">Service</a></li>
-        <li class="nav-menu-item"><a href="#work">Work</a></li>
-        <li class="nav-menu-item"><a href="#blog">Blog</a></li>
-        <li class="nav-menu-item"><a href="#contacts">Contact</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-item-link" href="#about">About</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-item-link" href="#service">Service</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-item-link" href="#work">Work</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-item-link" href="#blog">Blog</a></li>
+        <li class="nav-menu-item"><a class="nav-menu-item-link" href="#contacts">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  
-
   <main class="main-content">
     <section id="service" class="section wrapper">
-      <p class="italic">We work with</p>
-      <h2 class="section-title">Amazing Services</h2>
+      <h2 class='title-box'><span class="italic">We work with</span><span class="section-title">Amazing Services</span></h2>
       <ul class="service-list">
         <li class="service-list-item service-bg-1">
           <h3 class="service-title">Photography</h3>
@@ -61,8 +59,7 @@
     </section>
 
     <section id="team" class="section wrapper">
-      <p class="italic">Who we are</p>
-      <h2 class="section-title">Meet our team</h2>
+      <h2 class='title-box'><span class="italic">Who we are</span><span class="section-title">Meet our team</span></h2>
       <p class="team-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus deserunt corrupti vel rerum dolorem autem ab sit eligendi esse quam, repellendus, id molestias iure libero nesciunt, nihil asperiores.</p>
       <ul class="team-list">
         <li class="team-member-card">
@@ -135,10 +132,10 @@
   <footer class="footer">
     <div class="footer-flexbox wrapper">
       <p>&copy; 2016 MoGo free PSD template by <a href="#" class="footer-link">Laaqiq</a></p>
-      <div class="form">
-        <input type="text" name="subscribe" id="subscribe" title="Enter Your Email" placeholder="Your Email..."   >
-        <input class='subscribe-button' type="button" value="Subscribe">
-      </div>
+      <form action="#" class="contact-form">
+        <input type="email" class="contact-form__input" placeholder="Your email..." title="Enter Your Email" >
+        <button type="submit" class="contact-form__button">Subscribe</button>
+      </form>
     </div>
   </footer>
 
