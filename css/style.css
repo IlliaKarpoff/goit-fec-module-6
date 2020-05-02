@@ -29,6 +29,9 @@ img {
 a {
   text-decoration: none;
 }
+*:hover *{
+  transition: 0.2s;
+}
 
 /* HEADER */
 .header {
@@ -286,6 +289,7 @@ overflow: hidden;
   height: 40px;
   margin-left: -4px;
   border: 1px solid rgb(149, 225, 211);
+  cursor: pointer;
 }
 #subscribe {
   font-size: 15px;
