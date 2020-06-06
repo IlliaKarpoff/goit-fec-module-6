@@ -1,1 +1,3 @@
-# goit-fec-module-6
+# GoIT-Frontend-core/module-06
+Homework-06          
+Технология Flexbox
